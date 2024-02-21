@@ -1,0 +1,10 @@
+-- CreateTable
+CREATE TABLE "URL" (
+    "id" TEXT NOT NULL,
+    "longURL" TEXT NOT NULL,
+    "shortURL" TEXT NOT NULL,
+    "createdAt" TIMESTAMP(3) NOT NULL DEFAULT CURRENT_TIMESTAMP,
+    "updatedAt" TIMESTAMP(3) NOT NULL,
+
+    CONSTRAINT "URL_pkey" PRIMARY KEY ("id")
+);
