@@ -76,14 +76,13 @@ export default function Home() {
                   <input
                     type="text"
                     id="shortenedUrl"
-                    value={shortenedUrl}
+                    value={'https://url-shortner-izss.onrender.com/' + shortenedUrl}
                     className="bg-gray-800 border border-gray-700 text-gray-100 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-blue-500"
                     readOnly
                   />
                 </div>
               )
             }
-
 
             <button
               type="submit"
