@@ -18,7 +18,7 @@ export default function Home() {
   const shortenUrl = async (url: string) => {
     try {
 
-      const response = await axios.post('http://localhost:4000/shorten', {
+      const response = await axios.post('https://url-shortner-izss.onrender.com/shorten', {
         originalUrl: url
       });
 
